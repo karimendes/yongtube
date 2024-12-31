@@ -36,11 +36,12 @@ Contribuições
 
 Contribuições são bem-vindas! Para melhorias ou sugestões, envie um pull request ou abra uma issue.
 
+
 English
 
 YongTube
 
-This project is a web interface inspired by the YouTube platform, named YongTube. It is designed to exclusively access contents of Felix, member of the South-Korean group, Stray Kids. The project was developed with HTML, CSS and Javascript.
+This project is a web interface inspired by the YouTube platform, named YongTube. It is designed to exclusively access the contents of Felix, a member of the South-Korean group Stray Kids. The project was developed with HTML, CSS, and Javascript.
 
 Features
 
@@ -52,7 +53,7 @@ Adaptive Design: Adjusts to different devices using responsive CSS.
 
 Project Structure
 index.html: Main file containing the site's structure.
-results.html: File dedicated to filtered searches made in search bar.
+results.html: File dedicated to filtered searches made in the search bar.
 style.css: Style sheet responsible for the visual design.
 img/ folder: Contains images and icons used in the site.
 script.js: File which contains the logic structure made for search filtering.
@@ -65,7 +66,7 @@ Access to the style.css and img/ files properly linked to the project.
 How to Use
 
 Clone the repository or copy the files to your computer.
-Ensure all files (index.html, style.css, img/ folder, results.html and script.js) are in the same directory.
+Please make sure all the files (index.html, style.css, img/ folder, results.html, and script.js) are in the same directory.
 Open the index.html file in a web browser.
 Explore the navigation, videos, and available links.
 
