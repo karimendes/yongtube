@@ -26,8 +26,8 @@ Este projeto é uma interface web inspirada na plataforma de vídeo YouTube, cha
 
 **Pré-requisitos**
 
-Um navegador moderno como Google Chrome, Mozilla Firefox ou Microsoft Edge.
-Acesso aos arquivos style.css e img/ corretamente vinculados ao projeto.
+- Um navegador moderno como Google Chrome, Mozilla Firefox ou Microsoft Edge.
+- Acesso aos arquivos style.css e img/ corretamente vinculados ao projeto.
 
 **Como Usar**
 
@@ -59,8 +59,8 @@ This project is a web interface inspired by the YouTube platform, named YongTube
 
 **Prerequisites**
 
-A modern browser like Google Chrome, Mozilla Firefox, or Microsoft Edge.
-Access to the style.css and img/ files properly linked to the project.
+- A modern browser like Google Chrome, Mozilla Firefox, or Microsoft Edge.
+- Access to the style.css and img/ files properly linked to the project.
 
 **How to Use**
 
