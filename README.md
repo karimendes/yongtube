@@ -10,11 +10,11 @@ Este projeto é uma interface web inspirada na plataforma de vídeo YouTube, cha
 
 **Funcionalidades**
 
-Barra de pesquisa responsiva e funcional: Filtra os vídeos de acordo com a pesquisa realizada.
-Barra lateral funcional: Acesso rápido a outras páginas do projeto (home: página principal; playlists: página dedicada a playlists e; subscriptions: página dedicada aos canais da JYP Entertainment e do Stray Kids).
-Seção de vídeos: Exibe vídeos com miniaturas e descrições detalhadas.
-Links externos: Conecta-se a canais oficiais do YouTube, como Stray Kids e JYP Entertainment.
-Design adaptativo: Ajusta-se a diferentes dispositivos graças ao uso de CSS responsivo.
+- Barra de pesquisa responsiva e funcional: Filtra os vídeos de acordo com a pesquisa realizada.
+- Barra lateral funcional: Acesso rápido a outras páginas do projeto (home: página principal; playlists: página dedicada a playlists e; subscriptions: página dedicada aos canais da JYP Entertainment e do Stray Kids).
+- Seção de vídeos: Exibe vídeos com miniaturas e descrições detalhadas.
+- Links externos: Conecta-se a canais oficiais do YouTube, como Stray Kids e JYP Entertainment.
+- Design adaptativo: Ajusta-se a diferentes dispositivos graças ao uso de CSS responsivo.
 
 **Estrutura do Projeto**
 
@@ -44,11 +44,11 @@ This project is a web interface inspired by the YouTube platform, named YongTube
 
 **Features**
 
-Responsive and functional search bar: It filters videos according to your search. 
-Functional Sidebar: Fast access to other project pages (home: main page; playlists: page dedicated to playlists and; subscriptions: page dedicated to JYP Entertainment and Stray Kids channels).
-Video Section: Displays videos with thumbnails and detailed descriptions.
-External Links: Connects to official YouTube channels, such as Stray Kids and JYP Entertainment.
-Adaptive Design: Adjusts to different devices using responsive CSS.
+- Responsive and functional search bar: It filters videos according to your search. 
+- Functional Sidebar: Fast access to other project pages (home: main page; playlists: page dedicated to playlists and; subscriptions: page dedicated to JYP Entertainment and Stray Kids channels).
+- Video Section: Displays videos with thumbnails and detailed descriptions.
+- External Links: Connects to official YouTube channels, such as Stray Kids and JYP Entertainment.
+- Adaptive Design: Adjusts to different devices using responsive CSS.
 
 **Project Structure**
 1. index.html: Main file containing the site's structure.
