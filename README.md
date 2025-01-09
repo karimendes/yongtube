@@ -11,18 +11,19 @@ Este projeto é uma interface web inspirada na plataforma de vídeo YouTube, cha
 **Funcionalidades**
 
 - Barra de pesquisa responsiva e funcional: Filtra os vídeos de acordo com a pesquisa realizada.
-- Barra lateral funcional: Acesso rápido a outras páginas do projeto (home: página principal; playlists: página dedicada a playlists e; subscriptions: página dedicada aos canais da JYP Entertainment e do Stray Kids).
+- Barra lateral funcional: Acesso rápido a outras páginas do projeto (home: página principal e; playlists: página dedicada a playlists).
 - Seção de vídeos: Exibe vídeos com miniaturas e descrições detalhadas.
-- Links externos: Conecta-se a canais oficiais do YouTube, como Stray Kids e JYP Entertainment.
+- Links externos: Conecta-se a canais oficiais do YouTube, como Stray Kids e JYP Entertainment, e a playlists criadas no YouTube para cada conteúdo.
 - Design adaptativo: Ajusta-se a diferentes dispositivos graças ao uso de CSS responsivo.
 
 **Estrutura do projeto**
 
 1. index.html: Arquivo principal contendo a estrutura do site.
 2. results.html: Arquivo dedicado as pesquisas filtradas feitas na barra de pesquisa.
-3. style.css: Arquivo de estilo responsável pelo design visual.
-4. Pasta img/: Contém imagens e ícones utilizados no site.
-5. script.js: Arquivo que contém a parte lógica feita para a filtragem de pesquisa.
+3. playlists.html: Arquivo dedicado as playlists de cada conteúdo.
+4. style.css: Arquivo de estilo responsável pelo design visual.
+5. Pasta img/: Contém imagens e ícones utilizados no site.
+6. script.js: Arquivo que contém a parte lógica feita para a filtragem de pesquisa.
 
 **Pré-requisitos**
 
@@ -32,7 +33,7 @@ Este projeto é uma interface web inspirada na plataforma de vídeo YouTube, cha
 **Como usar**
 
 1. Clone o repositório ou copie os arquivos para o seu computador.
-2. Certifique-se de que todos os arquivos (index.html, style.css, pasta img, results.html e script.js) estejam na mesma pasta.
+2. Certifique-se de que todos os arquivos (index.html, style.css, pasta img, results.html, playlists.html e script.js) estejam na mesma pasta.
 3. Abra o arquivo index.html em um navegador da web.
 4. Explore a navegação, vídeos e links disponíveis.
 
@@ -40,8 +41,6 @@ Este projeto é uma interface web inspirada na plataforma de vídeo YouTube, cha
 
 - Sinta-se livre para personalizar do seu jeito, substituindo fontes, cores, vídeos e imagens.
 - Caso desenvolva um novo projeto com inspiração no YongTube, por favor, dê os créditos. Divirta-se!
-
-**OBS: O projeto ainda está em desenvolvimento**
 
 ##
 
@@ -54,17 +53,18 @@ This project is a web interface inspired by the YouTube platform, named YongTube
 **Features**
 
 - Responsive and functional search bar: Filters videos according to your search. 
-- Functional sidebar: Fast access to other project pages (home: main page; playlists: page dedicated to playlists and; subscriptions: page dedicated to JYP Entertainment and Stray Kids channels).
+- Functional sidebar: Fast access to other project pages (home: main page and; playlists: page dedicated to playlists).
 - Video section: Displays videos with thumbnails and detailed descriptions.
-- External links: Connects to official YouTube channels, such as Stray Kids and JYP Entertainment.
+- External links: Connects to official YouTube channels, such as Stray Kids and JYP Entertainment, and to playlists created on YouTube for each content.
 - Adaptive design: Adjusts to different devices using responsive CSS.
 
 **Project structure**
 1. index.html: Main file containing the site's structure.
 2. results.html: File dedicated to filtered searches made in the search bar.
-3. style.css: Style sheet responsible for the visual design.
-4. img/ folder: Contains images and icons used in the site.
-5. script.js: File containing the logic structure made for search filtering.
+3. playlists.html: File dedicated to playlists of each content. 
+4. style.css: Style sheet responsible for the visual design.
+5. img/ folder: Contains images and icons used in the site.
+6. script.js: File containing the logic structure made for search filtering.
 
 **Prerequisites**
 
@@ -74,7 +74,7 @@ This project is a web interface inspired by the YouTube platform, named YongTube
 **How to use**
 
 1. Clone the repository or copy the files to your computer.
-2. Please make sure all the files (index.html, style.css, img/ folder, results.html, and script.js) are in the same directory.
+2. Please make sure all the files (index.html, style.css, img/ folder, results.html, playlists.html, and script.js) are in the same directory.
 3. Open the index.html file in a web browser.
 4. Explore the navigation, videos, and available links.
 
@@ -82,5 +82,3 @@ This project is a web interface inspired by the YouTube platform, named YongTube
 
 - Feel free to customize your project in your own style by changing fonts, colors, videos, and images.
 - In the case of developing a whole new project inspired by YongTube, I kindly ask you to give me credit. Also, have fun! 
-
-**Note: This project is still under development**
