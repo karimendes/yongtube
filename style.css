@@ -42,6 +42,7 @@ body::-webkit-scrollbar-thumb {
     height: 80px;
     background-color: #fff;
     gap: 30px;
+    flex: 1;
 
 }
 
@@ -260,11 +261,37 @@ body::-webkit-scrollbar-thumb {
     transition: .5s;
 }
 
+.superior-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    position: absolute;
+    height: 63px;
+    font-size: 16px;
+    padding: 0 20px;
+    top: 80px;
+    right: 0;
+    left: 0;
+}
+
+.superior-results {
+    color: #fff;
+    font-size: 16px;
+    background-color: #f8e978;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .error-message {
     color: #ffc5a6;
-    font-weight: 300 bold;
     background-color: #fff;
+    font-weight: 300 bold;
     text-decoration: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .videos-container {
@@ -393,6 +420,7 @@ body::-webkit-scrollbar-thumb {
     .sidebar-container {
         width: 225px;
         overflow: scroll;
+        z-index: 1000;
     }
 
     .sidebar-list:nth-child(2),
@@ -422,6 +450,15 @@ body::-webkit-scrollbar-thumb {
         left: 247px;
     }
 
+    .superior-results-container {
+        margin-left: 15rem;
+        margin-top: 0.5rem;
+    }
+
+    .error-message {
+        margin-left: 0.3rem;
+    }
+
     .videos-container {
         padding-right: 10px;
         padding-left: 248px;
@@ -436,5 +473,11 @@ body::-webkit-scrollbar-thumb {
         height: 150px;
         justify-content: center;
         align-items: center;
+    }
+
+    .footer-container.fixed {
+        position: fixed;
+        bottom: 0;
+        left: 0;
     }
 }
