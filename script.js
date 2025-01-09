@@ -14,13 +14,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     const videoItems = document.querySelectorAll('.videos');
-
     const noResultsMessage = this.getElementById('error');
+    const footer = document.querySelector('.footer-container');
 
     function filterVideos() {
         if (!searchQuery) {
             videoItems.forEach(video => video.style.display = 'none'); 
             noResultsMessage.style.display = 'block'; 
+            footer.classList.add('fixed');
             return;
         }
 
@@ -37,10 +38,13 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         if (!hasResults) {
-            noResultsMessage.style.display = 'block'; 
+            noResultsMessage.style.display = 'block';
+            footer.classList.add('fixed');
         } else {
             noResultsMessage.style.display = 'none'; 
+            footer.classList.remove('fixed');
         }
+
     }
 
     filterVideos();
