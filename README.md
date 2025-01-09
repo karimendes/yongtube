@@ -16,7 +16,7 @@ Este projeto é uma interface web inspirada na plataforma de vídeo YouTube, cha
 - Links externos: Conecta-se a canais oficiais do YouTube, como Stray Kids e JYP Entertainment.
 - Design adaptativo: Ajusta-se a diferentes dispositivos graças ao uso de CSS responsivo.
 
-**Estrutura do Projeto**
+**Estrutura do projeto**
 
 1. index.html: Arquivo principal contendo a estrutura do site.
 2. results.html: Arquivo dedicado as pesquisas filtradas feitas na barra de pesquisa.
@@ -29,12 +29,17 @@ Este projeto é uma interface web inspirada na plataforma de vídeo YouTube, cha
 - Um navegador moderno como Google Chrome, Mozilla Firefox ou Microsoft Edge.
 - Acesso aos arquivos style.css e img/ corretamente vinculados ao projeto.
 
-**Como Usar**
+**Como usar**
 
 1. Clone o repositório ou copie os arquivos para o seu computador.
 2. Certifique-se de que todos os arquivos (index.html, style.css, pasta img, results.html e script.js) estejam na mesma pasta.
 3. Abra o arquivo index.html em um navegador da web.
 4. Explore a navegação, vídeos e links disponíveis.
+
+**Para desenvolvedores**
+
+- Sinta-se livre para personalizar do seu jeito, substituindo fontes, cores, vídeos e imagens.
+- Caso desenvolva um novo projeto com inspiração no YongTube, por favor, dê os créditos. Divirta-se!
 
 **OBS: O projeto ainda está em desenvolvimento**
 
@@ -48,29 +53,34 @@ This project is a web interface inspired by the YouTube platform, named YongTube
 
 **Features**
 
-- Responsive and functional search bar: It filters videos according to your search. 
-- Functional Sidebar: Fast access to other project pages (home: main page; playlists: page dedicated to playlists and; subscriptions: page dedicated to JYP Entertainment and Stray Kids channels).
-- Video Section: Displays videos with thumbnails and detailed descriptions.
-- External Links: Connects to official YouTube channels, such as Stray Kids and JYP Entertainment.
-- Adaptive Design: Adjusts to different devices using responsive CSS.
+- Responsive and functional search bar: Filters videos according to your search. 
+- Functional sidebar: Fast access to other project pages (home: main page; playlists: page dedicated to playlists and; subscriptions: page dedicated to JYP Entertainment and Stray Kids channels).
+- Video section: Displays videos with thumbnails and detailed descriptions.
+- External links: Connects to official YouTube channels, such as Stray Kids and JYP Entertainment.
+- Adaptive design: Adjusts to different devices using responsive CSS.
 
-**Project Structure**
+**Project structure**
 1. index.html: Main file containing the site's structure.
 2. results.html: File dedicated to filtered searches made in the search bar.
 3. style.css: Style sheet responsible for the visual design.
 4. img/ folder: Contains images and icons used in the site.
-5. script.js: File which contains the logic structure made for search filtering.
+5. script.js: File containing the logic structure made for search filtering.
 
 **Prerequisites**
 
 - A modern browser like Google Chrome, Mozilla Firefox, or Microsoft Edge.
 - Access to the style.css and img/ files properly linked to the project.
 
-**How to Use**
+**How to use**
 
 1. Clone the repository or copy the files to your computer.
 2. Please make sure all the files (index.html, style.css, img/ folder, results.html, and script.js) are in the same directory.
 3. Open the index.html file in a web browser.
 4. Explore the navigation, videos, and available links.
+
+**For programmers**
+
+- Feel free to customize your project in your own style by changing fonts, colors, videos, and images.
+- In the case of developing a whole new project inspired by YongTube, I kindly ask you to give me credit. Also, have fun! 
 
 **Note: This project is still under development**
