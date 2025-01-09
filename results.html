@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/favicon yongtube.png">
+    <title>YongTube</title>
+</head>
+<body>
+    <header>
+        <nav class = "header-container">
+
+        <img src ="img/logo_yongtube-removebg-preview.png" alt="logo yongtube" class="logo-yongtube">
+        <div class = "header-search">
+            <form action="results.html" method="get">
+                <input type="search" placeholder="Search" id="search" class="search-input" name="query">
+                <button type="submit" class="search-label"></button>
+            <a href="#" class="header-audio"></a>
+            </form>
+        </div>
+
+        <div class="header-icons">
+            <a href="#" class="header-videos"></a>
+            <a href="#" class="header-notifications"></a>
+            <a href="#" class="header-avatar"></a>
+        </div>
+
+    </nav>
+
+    </header>
+    <main>
+    <aside class="sidebar-container">
+        <ul class="sidebar-list">
+            <li>
+                <a class="sidebar-content" href="index.html">
+                    <i class="home-icon icon-item"></i>
+                    <span>Home</span></a>
+            </li>
+
+            <li>
+                <a class="sidebar-content" href="#">
+                    <i class="shorts-icon icon-item"></i>
+                    <span>Shorts</span></a>
+            </li>
+
+            <li>
+                <a class="sidebar-content" href="#">
+                    <i class="subscriptions-icon icon-item"></i>
+                    <span>Subscriptions</span></a>
+            </li>
+        </ul>
+
+        <ul class="sidebar-list">
+            <li>
+                <a class="sidebar-content" href="#">
+                    <i class="history-icon icon-item"></i>
+                    <span>History</span></a>
+            </li>
+
+            <li>
+                <a class="sidebar-content" href="playlists.html">
+                    <i class="playlists-icon icon-item"></i>
+                    <span>Playlists</span></a>
+            </li>
+
+            <li>
+                <a class="sidebar-content" href="#">
+                    <i class="yourvideos-icon icon-item"></i>
+                    <span>Your videos</span></a>
+            </li>
+
+            <li>
+                <a class="sidebar-content" href="#">
+                    <i class="watchlater-icon icon-item"></i>
+                    <span>Watch later</span></a>
+            </li>
+
+            <li>
+                <a class="sidebar-content" href="#">
+                    <i class="likedvideos-icon icon-item"></i>
+                    <span>Liked videos</span></a>
+            </li>
+        </ul>
+
+        <ul class="sidebar-list">
+            <li>
+                <a class="sidebar-content subscriptions" href="#">Subscriptions</a>
+            </li>
+
+            <li>
+                <a class="sidebar-content" href="https://www.youtube.com/@JYPEntertainment" target="_blank">
+                    <i class="jype-icon icon-item"></i>
+                    <span>JYP Entertainment</span></a>
+            </li>
+
+            <li>
+                <a class="sidebar-content" href="https://www.youtube.com/@StrayKids" target="_blank">
+                    <i class="straykids-icon icon-item"></i>
+                    <span>Stray Kids</span></a>
+            </li>
+        </ul>
+
+        <ul class="sidebar-list">
+            <li>
+                <a class="sidebar-content" href="#">
+                    <i class="settings-icon icon-item"></i>
+                    <span>Settings</span></a>
+            </li>
+
+            <li>
+                <a class="sidebar-content" href="#">
+                    <i class="reporthistory-icon icon-item"></i>
+                    <span>Report history</span></a>
+            </li>
+
+            <li>
+                <a class="sidebar-content" href="#">
+                    <i class="help-icon icon-item"></i>
+                    <span>Help</span></a>
+            </li>
+
+            <li>
+                <a class="sidebar-content" href="#">
+                    <i class="sendfeedback-icon icon-item"></i>
+                    <span>Send feedback</span></a>
+            </li>
+        </ul>
+    </aside>
+
+    <section class="superior-results-container">
+        <h1 class="superior-results">Results for: <span id="search-term"></span></h1>
+        <h2 class="error-message" id="error">No results found</h1>
+    </section>
+
+    <ul class="videos-container">
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/xkzQVHdLMR0?si=MrVJyHkjpgpIS-mF" title="[SKZ VLOG] Felix : Sunshine Vlog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[SKZ VLOG] Felix : Sunshine Vlog</h3>
+                <p>3.8M views - 4 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/68MQOQNA8UE?si=yMU8u3ZBr0LWFZBV" title="[SKZ VLOG] Felix : Sunshine Vlog 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[SKZ VLOG] Felix : Sunshine Vlog 2</h3>
+                <p>2.4M views - 4 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/bMI49ygHhac?si=NQsWMqr8InZLKmwn" title="[SKZ VLOG] Felix : Sunshine Vlog 3 (ft. 짱비니 형)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[SKZ VLOG] Felix : Sunshine Vlog 3 (ft. 짱비니 형)</h3>
+                <p>1.5M views - 3 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/tCd-kvDNBMA?si=JAnBBN2a8NmQbk5I" title="[SKZ VLOG] Felix : Sunshine Vlog 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[SKZ VLOG] Felix : Sunshine Vlog 4</h3>
+                <p>1.3M views - 3 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/3qWfNNS3k1E?si=QRFPh9vrouhLLWja" title="[SKZ VLOG] Lee Know & Felix : 냥냥 Vlog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[SKZ VLOG] Lee Know & Felix : 냥냥 Vlog</h3>
+                <p>1.7M views - 2 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/mhqsqV2wnR8?si=FbFsYq7-vrZZjBDF" title="[SKZ VLOG] Felix : Sunshine mini Vlog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[SKZ VLOG] Felix : Sunshine mini Vlog</h3>
+                <p>1M views - 2 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/SzC8HiTm5es?si=wJgJ08WScuV1Zn1f" title="[SKZ VLOG] Felix : Sunshine Vlog 5 in Australia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[SKZ VLOG] Felix : Sunshine Vlog 5 in Australia</h3>
+                <p>3.6M views - 2 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/fYXvUToKOiI?si=Kpf3zhgje9Kifdb4" title="[SKZ VLOG] Felix : Sunshine Vlog 6 in Tokyo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[SKZ VLOG] Felix : Sunshine Vlog 6 in Tokyo</h3>
+                <p>1.5M views - 1 year ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/r2N0kvzagAQ?si=A4xPX8RdK5Hp21RC" title="[SKZ VLOG] Felix : Sunshine Vlog 7 in Japan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[SKZ VLOG] Felix : Sunshine Vlog 7 in Japan</h3>
+                <p>1.9M views - 1 year ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/QtDgZqnXCfw?si=g_x2WULeHIc06izo" title="[SKZ VLOG] Felix : Sunshine Vlog 8 in Italy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[SKZ VLOG] Felix : Sunshine Vlog 8 in Italy</h3>
+                <p>1.2M views - 1 year ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/-9CuuZm2SG4?si=ZLAoamRUHnQ-IeZ1" title="[SKZ VLOG] Felix : Sunshine Vlog 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[SKZ VLOG] Felix : Sunshine Vlog 9</h3>
+                <p>874K views - 3 months ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/7oudhYqy6Qw?si=BrO9pT4n0KYduCnW" title="[SKZ VLOG] Lee Know & Felix : 냥냥 Vlog 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[SKZ VLOG] Lee Know & Felix : 냥냥 Vlog 2</h3>
+                <p>586K views - 2 months ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/ZVHPTVzadCg?si=6xT0RDPQkCqY6jkQ" title="Deep end (필릭스) Deep end (Felix)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>Deep end (필릭스) Deep end (Felix)</h3>
+                <p>8.4M views - 2 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/KagzGPwDR9w?si=xp-DfwtXBc8Fefa_" title='Changbin, Felix "좋으니까" | [Stray Kids : SKZ-RECORD]' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>Changbin, Felix "좋으니까" | [Stray Kids : SKZ-RECORD]</h3>
+                <p>12M views - 3 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/FL4kM5KheYk?si=Tmt0cuCIPsupGfkG" title='Bang Chan, Changbin, Felix, Seungmin "오늘 밤 나는 블을 켜" | [Stray Kids : SKZ-PLAYER]' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>Bang Chan, Changbin, Felix, Seungmin "오늘 밤 나는 블을 켜" | [Stray Kids : SKZ-PLAYER]</h3>
+                <p>27M views - 3 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/XJNP9l6k688?si=3keT4N9pRtlm3WNQ" title="Lee Know x Hyunjin x Felix | [Stray Kids : SKZ-PLAYER]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>Lee Know x Hyunjin x Felix | [Stray Kids : SKZ-PLAYER]</h3>
+                <p>5.7M views - 6 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%"" src="https://www.youtube.com/embed/NyZ0iYlTvRk?si=_jbmJ_m60IR86hBc" title='찬스 (CHANCE) "한 장 더" [Stray Kids : SKZ-RECORD]' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>찬스 (CHANCE) "한 장 더" [Stray Kids : SKZ-RECORD]</h3>
+                <p>1.6M views - 4 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/9ezGDQChoGs?si=ruKsUDLJqr9NWdDK" title='Changbin, Felix, Seungmin "비바람(Snain)" [Stray Kids : SKZ-RECORD]' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>Changbin, Felix, Seungmin "비바람(Snain)" [Stray Kids : SKZ-RECORD]</h3>
+                <p>2.9M views - 1 year ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/Oswujxm2Ag0?si=VgLwmPXeTMv3xDgZ" title='Felix "Unfair" | [Stray Kids : SKZ-PLAYER]' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>Felix "Unfair" | [Stray Kids : SKZ-PLAYER]</h3>
+                <p>6.5M views - 2 weeks ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/j6NmA5QDUYk?si=nSjWL_SSV37rNh7q" title="[Two Kids Room(투키즈룸)] Ep.04 Felix X I.N" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[Two Kids Room(투키즈룸)] Ep.04 Felix X I.N</h3>
+                <p>666K views - 6 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/_1S6lmft6I8?si=I-x6OFOaqwN5BcCo" title="[Two Kids Room(투키즈룸)] VOL.2 Ep.04 HAN X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[Two Kids Room(투키즈룸)] VOL.2 Ep.04 HAN X Felix</h3>
+                <p>582K views - 6 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/FQ4s13IS0J0?si=91PGDSBLkvFVsitR" title="[Two Kids Room(투키즈룸)] Ep.06 Changbin X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[Two Kids Room(투키즈룸)] Ep.06 Changbin X Felix</h3>
+                <p>814K views - 6 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/WJyjd0rFoNY?si=2ZDPPpsV_ewOtCs9" title="[Two Kids Room(투키즈룸)] VOL.2 Ep.09 Bang Chan X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[Two Kids Room(투키즈룸)] VOL.2 Ep.09 Bang Chan X Felix</h3>
+                <p>983K views - 6 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/r4_S7Vua0CQ?si=yR25SdrbAIsQiDSj" title="[Two Kids Room(투키즈룸)] VOL.3 Ep.01 Lee Know X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[Two Kids Room(투키즈룸)] VOL.3 Ep.01 Lee Know X Felix</h3>
+                <p>927K views - 5 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/IJItrfCMU30?si=h5jtmjbNi4aa21nU" title="[Two Kids Room(투키즈룸)] VOL.3 Ep.07 Hyunjin X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[Two Kids Room(투키즈룸)] VOL.3 Ep.07 Hyunjin X Felix</h3>
+                <p>964K views - 5 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/QbST3NEem-E?si=mcb9QOMkOt8ATfDZ" title="[Two Kids Room(투키즈룸)] VOL.4 Ep.02 Felix X Seungmin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[Two Kids Room(투키즈룸)] VOL.4 Ep.02 Felix X Seungmin</h3>
+                <p>340K views - 5 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/9VUnuwyP3po?si=1dQ-sy66B1qP49hY" title="[Two Kids Room(투키즈룸)] VOL.5 Ep.03 Felix X I.N" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[Two Kids Room(투키즈룸)] VOL.5 Ep.03 Felix X I.N</h3>
+                <p>338K views - 5 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/HiMJR4SZ2r0?si=CiltfSpI9LiBq880" title="[Two Kids Room(투키즈룸)] VOL.5 Ep.07 Bang Chan X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[Two Kids Room(투키즈룸)] VOL.5 Ep.07 Bang Chan X Felix</h3>
+                <p>580K views - 5 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/_Lo6_GNtBa4?si=OJIhqd3Tw2uy-ZPh" title="[One Kid's Room(원키즈룸)] Ep.05 Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[One Kid's Room(원키즈룸)] Ep.05 Felix</h3>
+                <p>1.4M views - 4 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/tmNd_usGN-g?si=98cjvbdiFnTFo8J9" title="[One Kid's Room 2024] Ep.05 Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[One Kid's Room 2024] Ep.05 Felix</h3>
+                <p>974K views - 3 months ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/ZvarD94F9WY?si=18wFICykVgHiSHSG" title="[Two Kids Room+1(투키즈룸+1)] Ep.02 Changbin X Hyunjin X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[Two Kids Room+1(투키즈룸+1)] Ep.02 Changbin X Hyunjin X Felix</h3>
+                <p>926K views - 4 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/20K21f8FUpM?si=aGB_GdAILkSm0B28" title="[Two Kids Room+1(투키즈룸+1)] Ep.04 Bang Chan X Felix X Seungmin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[Two Kids Room+1(투키즈룸+1)] Ep.04 Bang Chan X Felix X Seungmin</h3>
+                <p>661K views - 4 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/b_auMMKbiHM?si=zTuZefZQisGGkHiX" title="[Two Kids Room+1(투키즈룸+1)] Ep.08 Lee Know X HAN X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[Two Kids Room+1(투키즈룸+1)] Ep.08 Lee Know X HAN X Felix</h3>
+                <p>993K views - 4 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/dF3T25im5Jg?si=aBx3uYCyp4nRI1Xc" title="[♥ Kids Room(하트키즈룸)] Ep.07 Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[♥ Kids Room(하트키즈룸)] Ep.07 Felix</h3>
+                <p>1.6M views - 4 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/YUa4u_Z_8KE?si=3m1kPVTQDP0wVj7n" title="[ASMR : 8.01 STAY FM] Ep.01 G'day mate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[ASMR : 8.01 STAY FM] Ep.01 G'day mate</h3>
+                <p>3.1M views - 4 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/cTgve5zL-6c?si=M98s-CsDkN5dsJ6c" title="[ASMR : 8.01 STAY FM] Ep.02 Chrissy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[ASMR : 8.01 STAY FM] Ep.02 Chrissy</h3>
+                <p>1.8M views - 4 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/yRGysn8JTTA?si=fAcs6Eka7wM0zIi-" title="[ASMR : 8.01 STAY FM] Ep.03 bikkie & choccy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[ASMR : 8.01 STAY FM] Ep.03 bikkie & choccy</h3>
+                <p>4M views - 3 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/DOtyu_nP3JM?si=LeYR8ndahjOZdA-G" title="[ASMR : 8.01 STAY FM] Ep.04 Good on ya!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[ASMR : 8.01 STAY FM] Ep.04 Good on ya!</h3>
+                <p>2.4M views - 3 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/65J56znZVpw?si=aCFnI5wT4gKEwJDA" title="귀여운데 도도하고 까다롭지만 친근한 느낌? | 오늘 밤 나는 블을 켜(All-Night SKZ) Ep.01" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>귀여운데 도도하고 까다롭지만 친근한 느낌? | 오늘 밤 나는 블을 켜(All-Night SKZ) Ep.01</h3>
+                <p>8.6M views - 3 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/AtwIt8I_8VE?si=KoroJuaXE44MpapX" title="밤에 아이스크림 먹으면 큰일 나요! | 오늘 밤 나는 블을 켜(All-Night SKZ) Ep.02" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>밤에 아이스크림 먹으면 큰일 나요! | 오늘 밤 나는 블을 켜(All-Night SKZ) Ep.02</h3>
+                <p>4.1M views - 3 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/TbcIGWjsQvI?si=1kwKKhNs1Xmgj3bC" title="이블 없이 서로의 체온만이 전부였던 시간 | 오늘 밤 나는 블을 켜(All-Night SKZ) Ep.03" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>이블 없이 서로의 체온만이 전부였던 시간 | 오늘 밤 나는 블을 켜(All-Night SKZ) Ep.03</h3>
+                <p>2.8M views - 3 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/9OkRAef4ejQ?si=DL2QmAdnKhoFzUj7" title="[2 Kids Room] Ep.01 Hyunjin X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[2 Kids Room] Ep.01 Hyunjin X Felix</h3>
+                <p>4.4M views - 2 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/3DwJm-NzIpM?si=XAplfTYZABmH2k0l" title="[2 Kids Room] Ep.06 Felix X Seungmin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[2 Kids Room] Ep.06 Felix X Seungmin</h3>
+                <p>1.2M views - 2 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/tJdtYD-fxiU?si=ppu1JLXZZjJrusqm" title="[2 Kids Room] Ep.09 Changbin X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[2 Kids Room] Ep.09 Changbin X Felix</h3>
+                <p>1.4M views - 2 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/XAq2Esnb-ks?si=_S71nDMcpPRThIqQ" title="[2 Kids Room] Ep.15 Felix X I.N" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[2 Kids Room] Ep.15 Felix X I.N</h3>
+                <p>1.3M views - 2 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/uUCaddXwEY0?si=FAbdED-00dzTqXC7" title="[2 Kids Room] Ep.19 Bang Chan X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[2 Kids Room] Ep.19 Bang Chan X Felix</h3>
+                <p>1.5M views - 2 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/KsgiLKxeJ2g?si=BQkvwcc63qk5ia35" title="[2 Kids Room] Ep.24 HAN X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[2 Kids Room] Ep.24 HAN X Felix</h3>
+                <p>1.3M views - 2 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/6ntUxIK1osU?si=JMXPHIB1PE3CB1Ip" title="[2 Kids Room] Ep.28 Lee Know X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[2 Kids Room] Ep.28 Lee Know X Felix</h3>
+                <p>1.7M views - 2 years ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/ioGekl7_noA?si=xFbdZ6cLGhBFwhNA" title="[RACHA LOG] Ep.01 복승아 : Felix X Seungmin X I.N" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[RACHA LOG] Ep.01 복승아 : Felix X Seungmin X I.N</h3>
+                <p>2.1M views - 1 year ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/nMkd0OsTcBg?si=cxFlbfve9zxkGOmg" title="[RACHA LOG] Ep.03 꿀냥냥 : Lee Know X Changbin X Felix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[RACHA LOG] Ep.03 꿀냥냥 : Lee Know X Changbin X Felix</h3>
+                <p>1.6M views - 1 year ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/d70IiRMrhtU?si=75yqPtbicWLR6qyR" title="[RACHA LOG] Ep.08 공공즈 : Hyunjin X HAN X Felix X Seungmin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[RACHA LOG] Ep.08 공공즈 : Hyunjin X HAN X Felix X Seungmin</h3>
+                <p>2.2M views - 11 months ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/rI2EoxClaSo?si=UyRBU5qGZMuHRucH" title="[RACHA LOG] Ep.09 뽀짝만두 : Hyunjin X Felix X I.N" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[RACHA LOG] Ep.09 뽀짝만두 : Hyunjin X Felix X I.N</h3>
+                <p>2.6M views - 11 months ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/U7d5NK0K1fY?si=mUKOrbyxrPgnRA8I" title="[2 Kids Show] Ep.04 Changbin X Felix | 좋으니까(Because) | with MC Lee Know" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[2 Kids Show] Ep.04 Changbin X Felix | 좋으니까(Because) | with MC Lee Know</h3>
+                <p>1.1M views - 1 year ago</p>
+            </div>
+        </li>
+        <li class="videos">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/GKLpp8MYCXA?si=Xp2xGI3tjYN8oqy2" title="[2 Kids Show] Ep.05 Felix X Seungmin | 24 to 25 | with MC Lee Know" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <img src="/img/skz logo.png" alt="Stray Kids Channel Logo">
+                <h3>[2 Kids Show] Ep.05 Felix X Seungmin | 24 to 25 | with MC Lee Know</h3>
+                <p>977K views - 1 year ago</p>
+            </div>
+        </li>
+    </ul>
+    </main>
+
+    <footer class ="footer-container">
+        <section>
+            <h2 class = "footer-title">Music</h2>
+                <p class="footer-content">SKZ-PLAYER</p>
+                <p>SKZ-RECORD</p>
+                <p class="footer-content">SKZ-REPLAY</p>
+        </section>
+
+        <section>
+            <h2 class="footer-title">Variety Show</h2>
+                <p class="footer-content">Kids Room</p>
+                <p>ASMR : 8.01 STAY FM</p>
+                <p class="footer-content">All-Night SKZ</p>
+        </section>
+
+        <section>
+            <h2 class="footer-title">Vlogs</h2>
+                <p class="footer-content">Sunshine Vlog</p>
+                <p>Nyang Nyang Vlog</p>
+                <p class="footer-content">RACHA LOG</p>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
