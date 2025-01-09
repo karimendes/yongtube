@@ -36,6 +36,10 @@ Este projeto é uma interface web inspirada na plataforma de vídeo YouTube, cha
 3. Abra o arquivo index.html em um navegador da web.
 4. Explore a navegação, vídeos e links disponíveis.
 
+**OBS: O projeto ainda está em desenvolvimento**
+
+##
+
 **English**
 
 **What's YongTube?**
@@ -68,3 +72,5 @@ This project is a web interface inspired by the YouTube platform, named YongTube
 2. Please make sure all the files (index.html, style.css, img/ folder, results.html, and script.js) are in the same directory.
 3. Open the index.html file in a web browser.
 4. Explore the navigation, videos, and available links.
+
+**Note: This project is still under development**
